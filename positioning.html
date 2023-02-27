@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.square {
+  background: rgb(38, 255, 0);
+  border: 4px solid rgb(218, 32, 35);
+  position: static;
+  height: 80px;
+  width: 80px;
+  left: 150px;
+  top: 150px;   
+  <!--object has been pushed but you notice it hasnt moved-->
+}
+.square-1 {
+  position: relative;
+  z-index: 1;
+  border: dashed;
+  height: 8em;
+  margin-bottom: 1em;
+  margin-top: 4em;
+  <!--this square has been pushed relative to starting of Static square-->
+}
+.square-2 {
+  position: fixed;
+  z-index: 2; 
+  background: rgb(202, 66, 141);
+  width: 20%;
+  left: 300px;
+  top: 3em;
+  <!--fixed position on screen-->
+}
+.square-3 {
+  position: absolute;
+  z-index: 3; 
+  background: lightgreen;
+  width: 20%;
+  left: 65%;
+  top: 25px;
+  height: 7em;
+}
+.square-4 {
+  position: sticky;
+  z-index: 3; 
+  background: rgb(98, 91, 227);
+  width: 20%;
+  left: 65%;
+  height: 7em;
+  <!--stays in the same place until scroll passes-->
+}
+
+</style>
+</head>
+<body>
+<div class="square-set">
+  <figure class="square square">Static</figure>
+  <figure class="square square-1">Relative</figure>
+  <figure class="square square-2">Fixed</figure>
+  <figure class="square square-3">Absolute</figure>
+  <figure class="square square-4">Sticky</figure>
+<br>
+<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
+
+
+</div>
+</body>
+</html>
