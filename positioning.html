@@ -9,7 +9,8 @@
   height: 80px;
   width: 80px;
   left: 150px;
-  top: 150px;   
+  top: 150px; 
+  text-align: center;  
   <!--object has been pushed but you notice it hasnt moved-->
 }
 .square-1 {
@@ -24,16 +25,17 @@
 .square-2 {
   position: fixed;
   z-index: 2; 
-  background: rgb(202, 66, 141);
+  background: rgb(228, 154, 195);
   width: 20%;
   left: 300px;
   top: 3em;
+
   <!--fixed position on screen-->
 }
 .square-3 {
   position: absolute;
   z-index: 3; 
-  background: lightgreen;
+  background: rgb(38, 255, 0);
   width: 20%;
   left: 65%;
   top: 25px;
@@ -42,7 +44,7 @@
 .square-4 {
   position: sticky;
   z-index: 3; 
-  background: rgb(98, 91, 227);
+  background: rgb(142, 138, 231);
   width: 20%;
   left: 65%;
   height: 7em;
@@ -53,11 +55,11 @@
 </head>
 <body>
 <div class="square-set">
-  <figure class="square square">Static</figure>
-  <figure class="square square-1">Relative</figure>
-  <figure class="square square-2">Fixed</figure>
-  <figure class="square square-3">Absolute</figure>
-  <figure class="square square-4">Sticky</figure>
+  <figure class="square square" style="font-family:Impact; font-size:20px">Static</figure>
+  <figure class="square square-1" style="font-family:Impact; font-size:20px">Relative</figure>
+  <figure class="square square-2" style="font-family:Impact; font-size:20px">Fixed</figure>
+  <figure class="square square-3" style="font-family:Impact; font-size:20px">Absolute</figure>
+  <figure class="square square-4" style="font-family:Impact; font-size:20px">Sticky</figure>
 <br>
 <br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br>
@@ -82,3 +84,9 @@
 </div>
 </body>
 </html>
+
+
+
+
+
+
